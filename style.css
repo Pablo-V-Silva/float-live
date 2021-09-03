@@ -1,0 +1,126 @@
+/* [1-2] * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* [1] .square {
+    width: 200px;
+    height: 200px;
+}
+
+.contenitore {
+    background-color: aquamarine;
+    border: 2px solid green;
+}
+
+.blue {
+    background-color: blue;
+    float: right;
+}
+
+.pink {
+    background-color: pink;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+/* [2] .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.siteheader {
+    margin: auto;
+    width: 70%;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+main {
+    height: 800px;
+}
+
+main div {
+    float: left;
+    height: 100%;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: blue;
+}
+
+.contenuto {
+    width: 70%;
+    background-color: red;
+}
+
+.sitefooter {
+    margin: auto;
+    width: 70%;
+    height: 200px;
+    background-color: orange;
+}
+ */
+
+ /* [3] */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0rem;
+}
+
+.contenitore {
+    width: 98%;
+    margin: auto;
+    padding-top: 1rem;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.siteheader {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    margin-bottom: 1rem;
+}
+
+.sidebar, .content {
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.sidebar {
+    width: 28%;
+    height: 100px;
+    background-color:pink;
+    margin-right: 2%;
+}
+
+.content{
+    width: 70%;
+    height: 200px;
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+}
